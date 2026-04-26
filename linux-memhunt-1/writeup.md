@@ -130,7 +130,8 @@ Meski `test.py` ter-recover sebagai file kosong, konten aslinya masih bisa ditem
 
 ```bash
 cd 262cd342-5473-4dde-8b29-fff35b4a0bb8/home/zangi/Volatility_Ubuntu1804_Profile/.git/objects
-
+```
+```
 for f in $(find . -type f -size +0c); do
     echo "=== $f ==="
     python3 -c "import zlib,sys; print(zlib.decompress(open('$f','rb').read()))" 2>/dev/null
