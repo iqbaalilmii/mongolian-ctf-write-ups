@@ -2,7 +2,6 @@
 **Event:** Харуул Занги 2024 (ctf.mn)  
 **Category:** Forensics  
 **Points:** 945  
-**Solves:** 11  
 **Author:** Id3r
 
 ---
@@ -171,27 +170,7 @@ Dengan semua bahan terkumpul:
 | IV | `1e5d706734492443` (16 bytes ASCII) |
 | Ciphertext | Base64 decode dari 6 TextView (48 bytes) |
 
-```python
-import base64
-from Crypto.Cipher import AES
-
-strings = ["TggBtXpN", "HZr/YmbRI", "u1f6LOzIH9/+", "9pDSL63u6x", "UGtX0x4OoJB2", "nA6rawx2Z3aH1"]
-key = b"jKdxcGqNrFZYnqLm"
-iv  = b"1e5d706734492443"
-
-ciphertext = base64.b64decode("".join(strings) + "==")
-
-cipher = AES.new(key, AES.MODE_CBC, iv=iv)
-plaintext = cipher.decrypt(ciphertext)
-
-# Remove PKCS7 padding
-pad_len = plaintext[-1]
-flag = plaintext[:-pad_len].decode('utf-8')
-print(flag)
-# Output: HZ2024{S3cCoApp_IziIT_H4rD_T0_F!Nd}
-```
-
----
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/b5738594-d1cb-4ff4-9d4e-a5a85c0bb11f" />
 
 ## Flag
 
