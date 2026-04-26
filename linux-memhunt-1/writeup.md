@@ -141,19 +141,7 @@ done
 Git menyimpan file sebagai objek terkompresi zlib. Hasil dekompresi:
 
 **Object `b1/8e0ebc...`** → Ini adalah blob dari `test.py`:
-```python
-import requests
-
-# Replace with your Pastebin API key
-api_key = 'YOUR-KEY-HERE'
-
-# Your paste content
-paste_content = "This is the content of my paste."
-...
-# https://pastebin.com/gtuG2gkt
-...
-response = requests.post(api_url, data=data)
-```
+<img width="1600" height="940" alt="image" src="https://github.com/user-attachments/assets/e0881fc0-ee42-459b-8099-05fde8dede45" />
 
 **Object `49/53b0d4...`** → Commit message:
 ```
