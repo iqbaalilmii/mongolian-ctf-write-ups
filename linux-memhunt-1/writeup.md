@@ -225,5 +225,5 @@ HZ2023{F1r$T_Warm1p_fl@g_0x123456789}
 
 ---
 
-*Writeup by: [nama kamu]*  
+*Writeup by: Iqbal Ilmi  
 *Event: HZ2023 CTF*
