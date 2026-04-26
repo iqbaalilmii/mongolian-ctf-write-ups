@@ -1,4 +1,3 @@
-[writeup_memhuntflag1.md](https://github.com/user-attachments/files/27094214/writeup_memhuntflag1.md)
 # CTF Writeup: MemHunt Flag 1
 **Category:** Memory Forensics  
 **Flag:** `HZ2023{F1r$T_Warm1p_fl@g_0x123456789}`
